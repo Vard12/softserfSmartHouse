@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", serif;
+}
+.smartHouse {
+    padding: 15px 15px 55px 15px;
+    border: 10px solid #FFC107;
+    background-color: #E91E63;
+}
+
+.smartHouse__title {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.btnWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 26px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #673AB7;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: none;
+    transition: .3s;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px #677ae2;
+    transition: .3s;
+}
+
+.fridge {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 10px;
+    border-radius: 6px;
+    color: #fff;
+    line-height: 2;
+    margin-right: 15px;
+}
+.computer {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 10px;
+    border-radius: 6px;
+    color: #fff;
+    line-height: 2;
+    margin-right: 15px;
+}
+
+.computer:last-child {
+    margin-right: 0;
+}
+
+.stateBtn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    background-color: crimson;
+}
+
+.smartHouse__address {
+    margin-bottom: 36px;
+    color: #fff;
+}
+
+.on {
+    background-color: #677ae2;
+}
+
+
+.bottomContainer {
+    display: flex;
+}
+
+.bottomContainer > * {
+    flex: 0 0 33.3333%;
+}
